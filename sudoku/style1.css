@@ -1,0 +1,29 @@
+.box {
+    background: #e4f7fd61;
+    border: 2px solid #0786ada1;
+    border-radius: 8px;
+}
+
+.box li {
+    list-style: none;
+    text-align: center;
+    line-height: 200px;
+    background: rgba(146, 203, 230, 0.65);
+    border-radius: 8px;
+}
+.box{
+    width: 940px;
+  }
+  ul{
+    overflow: hidden;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    margin-top: 0;
+  }
+  .box li{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,27 @@
+.box{
+    padding: 20px 10px;
+    display: inline-block;
+    background: #ff000026;
+  }
+  ul{
+    overflow: hidden;
+    width: 600px;
+    margin-bottom: -10px;
+    margin-top: 0;
+    background: none;
+  }
+  li{
+    list-style: none;
+    float: left;
+    width: 198px;/*可以用百分比*/
+    height: 198px;/*可以用百分比*/
+    margin-bottom: 10px;
+    border: 1px solid red;
+  }
+  li  > div{
+    background: rgba(255, 0, 0, 0.24);
+    margin: 0 10px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 198px;
+  }
